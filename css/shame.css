@@ -1,0 +1,14 @@
+.bigdata{
+	font-size: 1.5em;
+	display: inline-block;
+	margin-top: 15px;
+}
+
+.hassle{
+	background-color: #ff2951;
+	color: white;
+}
+
+body{
+	background-image: url('../i/bg_header17.png');
+}
