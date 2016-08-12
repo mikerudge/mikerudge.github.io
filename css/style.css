@@ -186,7 +186,7 @@ h2.left{
 	width:100%;
 	padding:115px 0 80px 0;
 }
-	
+
 .desktop_menu a{
 	display:block;
 	color:#fff;
@@ -289,7 +289,7 @@ h2.left{
 
 .nav1{
 	height:100px;
-	background:#222328;	
+	background:#222328;
 }
 
 .flex{
@@ -305,7 +305,7 @@ h2.left{
 	height:100px;
 	background:url(../i/logo1.png) no-repeat 0% 50%;
 	background-size:100%;
-	
+
 }
 
 .nav1_links{
@@ -593,12 +593,12 @@ h2.left{
 	text-align:center;
 	color:#fff;
 	border-radius:25px;
-	background:#3b55e6;
+	background:#EE3361;
 	text-decoration:none;
 }
 
 .sec3_1_btn:hover{
-	background:#2742d6;
+	background:#EE3364;
 	color:#fff;
 }
 
@@ -734,7 +734,7 @@ h2.left{
 	max-width:300px;
 	display:inline-block;
 	vertical-align:middle;
-	
+
 }
 
 /* Section 7 - The Executive Team */
@@ -1528,7 +1528,7 @@ h2.left{
 	color:#fff;
 	background:#222328;
 }
-	
+
 .sec6_2_block .title{
 	font-size:16px;
 	line-height:26px;
@@ -1541,7 +1541,7 @@ h2.left{
 /* Section 7 (2) - Purchase App */
 
 .sec7_2{
-	background:#f0ecdd;
+	background:#eaedf1;
 	text-align:center;
 	padding-bottom:83px;
 }
@@ -1771,7 +1771,7 @@ Landing 3
 }
 
 /* Header 3 */
-	
+
 .header3{
 	background:#515e69 url(../i/bg_header3.jpg) no-repeat 50% 50%;
 	background-size:cover;
@@ -1842,12 +1842,12 @@ Landing 3
 }
 
 /* Section 1 (3) */
-	
+
 .sec1_3{
 	padding-top:116px;
 	padding-bottom:105px;
 }
-	
+
 .sec1_3_text{
 	font-weight:300;
 	color:#3a3d4b;
@@ -1903,7 +1903,7 @@ Landing 3
 
 .sec1_3_pluses .text i{
 	color:#bcc6c9;
-}	
+}
 
 .sec1_3_pluses_line{
 	position:absolute;
@@ -1913,7 +1913,7 @@ Landing 3
 	height:590px;
 	background:#ebeeef;
 }
-	
+
 .bg_sec1_3{
 	float:left;
 	max-width:750px;
@@ -1921,7 +1921,7 @@ Landing 3
 }
 
 /* Section 2 (3) */
-	
+
 .sec2_3{
 	background:#f0ecdd;
 	padding-top:110px;
@@ -1946,7 +1946,7 @@ Landing 3
 }
 
 /* Section 3 (3) */
-	
+
 .sec3_3{
 	background:#1f2528 url(../i/bg_sec3_3.jpg) no-repeat 50% 50%;
 	background-size:cover;
@@ -1967,7 +1967,7 @@ Landing 3
 }
 
 /* Section 4 (3) */
-	
+
 .sec4_3{
 	padding-bottom:118px;
 }
@@ -1988,7 +1988,7 @@ Landing 3
 }
 
 /* Section 5 (3) */
-	
+
 .sec5_3{
 	text-align:center;
 	color:#fff;
@@ -2042,7 +2042,7 @@ Landing 3
 }
 
 /* Section 6 (3) */
-	
+
 .sec6_3{
 	padding-top:145px;
 	text-align:center;
@@ -2051,7 +2051,7 @@ Landing 3
 
 .sec6_3 h2{
 	font-size:62px;
-	line-height:72px;	
+	line-height:72px;
 }
 
 .sec6_3_posttitle{
@@ -2082,9 +2082,9 @@ Landing 3
 .sec6_3 .header3_input_holder button:hover{
 	background:#1dba7d;
 }
-	
+
 /* Footer 3 */
-	
+
 .footer3{
 	background:#bcc6c9;
 	padding-top:15px;
@@ -2094,7 +2094,7 @@ Landing 3
 .footer3 .footer1_links{
 	margin-top:85px;
 }
-	
+
 .footer3 .footer1_info .text{
 	font-size:13px;
 	line-height:24px;
@@ -2119,7 +2119,7 @@ Landing 3
 	margin-bottom:20px;
 	letter-spacing:0px;
 }
-	
+
 .footer3 .footer1_links .col a, .footer3 .footer1_links .col a:focus{
 	font-size:16px;
 	line-height:36px;
@@ -2130,8 +2130,8 @@ Landing 3
 .footer3 .footer1_links .col a:hover{
 	color:#000;
 }
-	
-	
+
+
 /*
 
 
@@ -2260,7 +2260,7 @@ Landing 4 - Desktop App
 }
 
 /* Navigation 4 */
-	
+
 .nav4{
 	background:#f0ecdd;
 }
@@ -2268,7 +2268,7 @@ Landing 4 - Desktop App
 .nav4 .mobile_menu_close{
 	display:none;
 }
-	
+
 .nav4 a, .nav4 a:focus{
 	display:inline-block;
 	font-size:11px;
@@ -2298,9 +2298,9 @@ Landing 4 - Desktop App
 .nav4 a.nav4_btn:hover{
 	background:#666;
 }
-	
+
 /* Section 1 (4) */
-	
+
 .sec1_4{
 	padding-top:115px;
 	text-align:center;
@@ -2325,13 +2325,13 @@ Landing 4 - Desktop App
 	margin-top:68px;
 	margin-bottom:80px;
 }
-	
+
 .sec1_4_block{
 	width:580px;
 	float:left;
 	text-align:left;
 }
-	
+
 .sec1_4_block .image{
 	width:70px;
 	float:left;
@@ -2358,7 +2358,7 @@ Landing 4 - Desktop App
 	color:#3a3d4b;
 	margin-top:25px;
 }
-	
+
 .sec1_4_btn, .sec1_4_btn:focus{
 	display:inline-block;
 	border:2px solid #3b55e6;
@@ -2386,9 +2386,9 @@ Landing 4 - Desktop App
 .sec1_4_btn.filled:hover{
 	color:#fff;
 }
-	
+
 /* Section 2 (4) */
-	
+
 .sec2_4{
 	background:#3a3534 url(../i/bg_sec2_4.jpg) no-repeat 50% 50%;
 	background-size:cover;
@@ -3810,7 +3810,7 @@ Landing 4 - Desktop App
 }
 
 .bg_sec2_6{
-	width:100%;	
+	width:100%;
 	margin-top:70px;
 }
 
@@ -4921,7 +4921,7 @@ Landing 4 - Desktop App
 	text-align:left;
 	font-size:32px;
 	line-height:42px;
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .sec2_8 .right .text{
@@ -5277,7 +5277,7 @@ Landing 4 - Desktop App
 .sec9_8 .col .socials{
 	margin-top:26px;
 }
-	
+
 .sec9_8 .col .socials a{
 	display:inline-block;
 	height:18px;
@@ -6106,12 +6106,12 @@ Landing 4 - Desktop App
 /* nav 10 */
 
 .nav10{
-	
+
 }
 
 .nav10 a.nav5_logo{
 	font-size:22px;
-	
+
 }
 
 .nav10 a{
@@ -6147,7 +6147,7 @@ Landing 4 - Desktop App
 }
 
 .bg_header10{
-	position:absolute;
+	position:absolute;;
 	top:226px;
 	left:550px;
 }
@@ -7826,7 +7826,7 @@ Landing 4 - Desktop App
 .sec4_12_block img{
 	border-radius:50%;
 	margin-top:30px;
-	
+
 }
 
 .sec4_12_block .title{
@@ -10533,7 +10533,7 @@ Landing 4 - Desktop App
 	color:#fff;
 	font-size:26px;
 	line-height:36px;
-	
+
 }
 
 .header16 h1{
@@ -11849,7 +11849,7 @@ Landing 4 - Desktop App
 }
 
 .header18_form{
-	
+
 }
 
 .header18_form .half{
@@ -12801,7 +12801,7 @@ Landing 4 - Desktop App
 *
 *
 *
-	Landing 20 - 
+	Landing 20 -
 *
 *
 *
@@ -13425,70 +13425,3 @@ Landing 4 - Desktop App
 .footer20 .socials a:hover{
 	opacity:1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
