@@ -1,16 +1,5 @@
-.bigdata{
-	font-size: 1.5em;
-	display: inline-block;
-	margin-top: 30px;
-}
-
-.hassle{
-	background-color: #EE3361;
-	color: white;
-}
-
 body{
-	background-color: #f9fafc
+	background-color: #6d52a2
 }
 
 .bubble-outline-pink
@@ -61,7 +50,7 @@ border-color: #FFFFFF;
 float: left;
 color: #FFFFFF;
 text-align: center;
-font-weight: 200;
+font-weight: 300;
 width: auto;
 height:auto;
 min-height:24px;
@@ -76,10 +65,6 @@ border-radius: 30px;
 border-style: solid;
 border-width: 2px 2px 2px 2px;
 border-color: #EE3361;
-}
-
-.bolder{
-	font-weight: 500;
 }
 
 .bubble-white

@@ -78,6 +78,7 @@ i{font-style:italic;font-family:Droid Serif;}
 h1,h2,h3,h4,h5,h6{line-height:1;margin:0 auto;text-align:center;}
 ul{margin:0;padding:0;list-style:none;}
 
+
 input{
 	height: 30px;
 	width: 25px;
@@ -388,6 +389,10 @@ h2.left{
 	text-align:center;
 	color:#fff;
 	font-weight:400;
+}
+
+.main h1{
+  font-weight: 100;
 }
 
 .header1_posttitle{
