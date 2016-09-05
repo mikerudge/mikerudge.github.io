@@ -13,10 +13,22 @@ body{
 	background-color: #f9fafc
 }
 
+.material-icons{
+	font-size: 83px;
+	height: 100px;
+}
+
+.big{
+	height: 271px;
+	color: white;
+	font-size: 200px;
+	margin-top: 10%;
+}
+
 .bubble-outline-pink
 {
 float: right;
-color: #EE3361;
+color: #222328;
 text-align: center;
 font-weight: 300;
 width: auto;
