@@ -15,7 +15,8 @@ body{
 
 .material-icons{
 	font-size: 83px;
-	height: 100px;
+	height: 120px;
+	width: 120px;
 }
 
 .big{
@@ -24,6 +25,12 @@ body{
 	font-size: 200px;
 	margin-top: 10%;
 }
+
+.main{
+  font-weight: 300;
+}
+
+
 
 .bubble-outline-pink
 {
