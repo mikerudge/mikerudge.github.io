@@ -10,6 +10,8 @@ This blog post shows a simple(ish) way of handling repeated tasks using AWS Even
 
 Let’s begin with the actual problem we are trying to solve. Users create a task and enter all the details, including a title, description, assignee, attachments etc. They want to do this task once a week, starting next Monday. They don’t want to re create this task each week with all the same details, instead they should be able to set it up once, and for our app to do the boring stuff.
 
+Users should be able to see a history of who completed each task each week and also be able to update the task at any point.
+
 ## The overly complicated solution
 
 So when I first started thinking about this problem I jumped to figuring out how I was going to manage a schedule of tasks. CRON job every few minutes? Seems like a waste of resource most of the time having a lambda call a database every few minutes.
@@ -32,7 +34,7 @@ No problem, we only care each time the task is complete, no updating a scheduler
 
 ### What if the user doesn't complete the task?
 
-The next task that is created will always be created based on the due date and teh schedule. So for example, if they had a daily task, and missed a few days, Once they complete Mondays task, Tuesdays would be created, then Wednesday etc. However, if they have missed a whole bunch of days and want to start the schedule again from today, they can simply change the due date to today's date, and the schedule will start again. Easy!
+The next task that is created will always be created based on the due date and the schedule. So for example, if they had a daily task, and missed a few days, once they complete Mondays task, Tuesdays would be created, then Wednesday etc. However, if they have missed a whole bunch of days and want to start the schedule again from today, they can simply change the due date to today's date, and the schedule will start again. Easy!
 
 ### What if the task needs updating?
 
@@ -69,13 +71,13 @@ enum SCHEDULE {
 type TASK = {
 ...
 repeat?: SCHEDULE
-repeatEndDate?: Date
+repeatEnd?: Date
 }
 ```
 
-We also added in `repeatEndDate` so that the user can specify a date in which the task should stop repeating.
+We also added in `repeatEnd` so that the user can specify a date in which the task should stop repeating.
 
-## AWS Eventbridge
+## [AWS Eventbridge](https://aws.amazon.com/eventbridge)
 
 ### So I need to manage an eventbus? isn't this overkill?
 
@@ -85,7 +87,7 @@ So why don't we just create a new task and the same time as completing the previ
 
 To be able to duplicate the task, we need to listen out for anytime a task is completed and also have a `repeat` on it. To do this we can create a rule with an event pattern that looks something like...
 
-```javascript
+```typescript
 const taskCompletedRule = new event.Rule(this, "task.completed", {
 	ruleName: "task.completed.repeated",
 	eventBus: taskBus,
@@ -281,6 +283,6 @@ try {
 
 ## PHEW! Coffee?
 
-Let me tell you about our sponsors ... kidding
+Let me tell you about our sponsors ... kidding, kidding... this blog is mining for bitcoin so don't even worry about it!
 
 Would love to hear your feedback on this. Was it obvious to you that this was the solution? Or did you start by over complicating the whole thing like I did. Either way be good to hear if you implemented something like this, and what your experience was!
